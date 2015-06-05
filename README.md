@@ -20,5 +20,5 @@ Este proyecto, es un ejemplo de un CRUD o ABM sencillo, usando:
 
 Librerias usadas (se instalan al correr el comando composer install)
 
-[JeffreyWay/Laravel-4-Generators](https://github.com/JeffreyWay/Laravel-4-Generators)
-[fzaninotto/Faker](https://github.com/fzaninotto/Faker)
+* Generators -> [JeffreyWay/Laravel-4-Generators](https://github.com/JeffreyWay/Laravel-4-Generators)
+* Faker      -> [fzaninotto/Faker](https://github.com/fzaninotto/Faker)

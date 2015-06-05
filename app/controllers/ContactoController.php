@@ -120,7 +120,7 @@ class ContactoController extends \BaseController {
 
 		// process the login
 		if ($validator->fails()) {
-			return Redirect::to('contacto/' . $id . '/edit')
+			return Redirect::to('contactos/' . $id . '/edit')
 				->withErrors($validator)
 				->withInput(Input::except('password'));
 		} else {

@@ -7,7 +7,7 @@
 	<!-- si hay errores de creación , se muestran aquí -->
 	{{ HTML::ul($errors->all()) }}
 	
-	{{ Form::model($contacto, array('action' => array('ContactosController@update', $contacto->id), 'method' => 'PUT')) }}
+	{{ Form::model($contacto, array('action' => array('ContactoController@update', $contacto->id), 'method' => 'PUT')) }}
 		<div class="form-group">
 			{{ Form::label('name', 'Name') }}
 			{{ Form::text('name', null, array('class' => 'form-control')) }}
